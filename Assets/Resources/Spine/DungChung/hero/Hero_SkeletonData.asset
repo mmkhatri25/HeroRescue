@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
+  m_Name: Hero_SkeletonData
+  m_EditorClassIdentifier: 
+  atlasAssets:
+  - {fileID: 11400000, guid: d87e794f434887c4f8dcea1fb31002be, type: 2}
+  scale: 0.0037
+  skeletonJSON: {fileID: 4900000, guid: de43e2d8de8e7e54f9e92656d9104d1c, type: 3}
+  skeletonDataModifiers: []
+  fromAnimation:
+  - run
+  - run (kiem)
+  - open (kiem)
+  - open ( k kiem)
+  - attack (kiem)
+  - fall 1
+  - fall 2
+  - fall 1
+  - fall 2
+  - fall 1
+  - fall 2
+  - run (kiem)
+  - idle
+  toAnimation:
+  - win
+  - win
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - run
+  - run
+  - run (kiem)
+  - run (kiem)
+  - attack (kiem)
+  - attack (kiem)
+  duration:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  defaultMix: 0.2
+  controller: {fileID: 0}
