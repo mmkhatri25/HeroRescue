@@ -194,6 +194,7 @@ public class GameManager : MonoBehaviour
     }
     public int enemyKill;
     static int countpasslevel;
+
     private IEnumerator IEWaitToShowWinLose(bool isWin)
     {
         yield return new WaitForSeconds(0.5f);
@@ -301,8 +302,8 @@ public class GameManager : MonoBehaviour
     public void OnNextLevel()
     {
         LoadingNew.SetActive(true);
-        Utils.LEVEL_INDEX += 1;
-        //Utils.LEVEL_INDEX = 178;
+        //Utils.LEVEL_INDEX += 1;
+        Utils.LEVEL_INDEX =  111;
 
         Utils.SaveLevel();
 

@@ -74,6 +74,7 @@ public class PlayerManager : MonoBehaviour
             enBase.OnDie_();
         }
     }
+    
     private void Start()
     {
         GameManager.Instance.gTargetFollow = gameObject;
@@ -89,6 +90,7 @@ public class PlayerManager : MonoBehaviour
             //}
             if (saPlayer.AnimationName.Equals(str_OpenWithSword) || saPlayer.AnimationName.Equals(str_OpenWithoutSword))
             {
+
                 StartCoroutine(ISShowWin());
                 Debug.LogError("wwwwwtttttttffffffff");
             }
@@ -158,6 +160,10 @@ public class PlayerManager : MonoBehaviour
             HeroBlink();
         }
 
+        if (GameManager.Instance.gameState == GameManager.GAMESTATE.LOSE)
+        {
+            PlayAnim(str_Lose, false);
+        }
     }
 
     private void CheckStickBarrier()
@@ -529,6 +535,7 @@ public class PlayerManager : MonoBehaviour
                 win = true;
                 isMoveLeft = false;
                 isMoveRight = false;
+
                 StartCoroutine(delayWin());
                 Debug.LogError("win đi");
             }
