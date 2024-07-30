@@ -3523,6 +3523,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5463567949786068570, guid: 39c10473b070b44409c0545cfb794027,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5463567949786068570, guid: 39c10473b070b44409c0545cfb794027,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -3600,6 +3605,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WallX3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5463567949786068570, guid: 39c10473b070b44409c0545cfb794027,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5463567949786068570, guid: 39c10473b070b44409c0545cfb794027,
         type: 3}
@@ -3865,6 +3875,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 447227862102556856, guid: 6bc9e2ebb2ccfa74eb5012cbce112a99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc9e2ebb2ccfa74eb5012cbce112a99, type: 3}
@@ -4646,6 +4661,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1396916702}
     m_Modifications:
+    - target: {fileID: 447227860025940805, guid: e9bd682b6b6c2214a8aaa1cd8d58b107,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 447227860025940806, guid: e9bd682b6b6c2214a8aaa1cd8d58b107,
         type: 3}
       propertyPath: m_RootOrder
@@ -5356,7 +5376,7 @@ PrefabInstance:
     - target: {fileID: 2800725489945902425, guid: 4f33d1dcf1681694c9efc5e1aab72926,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.98
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 2800725489945902425, guid: 4f33d1dcf1681694c9efc5e1aab72926,
         type: 3}
@@ -5659,6 +5679,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Play Moc5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946110268828160182, guid: 8eea6eff2c4b9b34dbfe6f3070739266,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7678980956083671126, guid: 8eea6eff2c4b9b34dbfe6f3070739266,
         type: 3}
