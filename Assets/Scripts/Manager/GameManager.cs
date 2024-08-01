@@ -299,11 +299,62 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(IEWaitToShowWinLose(false));
     }
+    public InputField levelText;
+    public void OnNextLevelTest()
+    {
+        LoadingNew.SetActive(true);
+        //Utils.LEVEL_INDEX += 1;
+        Utils.LEVEL_INDEX = int.Parse(levelText.text)-1;
+
+        Utils.SaveLevel();
+
+        int levelIndex = Utils.LEVEL_INDEX;
+
+        Debug.Log("1. OnNextLevel - " + levelIndex);
+        if (levelIndex > levelConfig.lstAllLevel.Count - 1)
+        {
+            Debug.Log("2 OnNextLevel - " + levelIndex);
+
+            List<int> tempResult = new List<int>();
+            for (int i = 0; i < levelConfig.lstAllLevel.Count; i++)
+            {
+                if (!levelConfig.levelSkips.Contains(i))
+                {
+                    tempResult.Add(i);
+                }
+            }
+            var index = Random.Range(50, tempResult.Count);
+            Debug.Log("3 OnNextLevel - " + levelIndex);
+
+            Utils.RealLevelIndex = tempResult[index];
+        }
+        else
+        {
+            Debug.Log("4 OnNextLevel - " + levelIndex);
+
+            Utils.RealLevelIndex = levelIndex;
+        }
+
+        /*        if (Utils.LEVEL_INDEX < levelConfig.lstAllLevel.Count - 1)
+                {
+                    Utils.LEVEL_INDEX += 1;
+                    Utils.SaveLevel();
+                }
+                else
+                {
+                    Utils.LEVEL_INDEX = 0;
+                    Utils.SaveLevel();
+                }*/
+
+        ObjectPoolerManager.Instance.ClearAllPool();
+        //SceneManager.LoadSceneAsync("MainGame");
+        SceneManager.LoadScene("MainGame");
+    }
     public void OnNextLevel()
     {
         LoadingNew.SetActive(true);
         //Utils.LEVEL_INDEX += 1;
-        Utils.LEVEL_INDEX =  111;
+        Utils.LEVEL_INDEX =  81;
 
         Utils.SaveLevel();
 

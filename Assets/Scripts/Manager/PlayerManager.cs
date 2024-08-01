@@ -211,7 +211,7 @@ public class PlayerManager : MonoBehaviour
     public bool isJump;
     private void FixedUpdate()
     {
-
+        Debug.Log("1 FixedUpdate");
         if (!GameManager.Instance.playerMove)
             return;
         if (saPlayer.AnimationName == str_Win || saPlayer.AnimationName == str_Win2 || saPlayer.AnimationName == str_OpenWithSword || saPlayer.AnimationName == str_OpenWithoutSword)
@@ -224,6 +224,8 @@ public class PlayerManager : MonoBehaviour
         HitDownMapObject();
         if (hitDown.collider != null)
         {
+            Debug.Log("2 FixedUpdate");
+
             if (isJump)
                 isJump = false;
 
@@ -240,9 +242,11 @@ public class PlayerManager : MonoBehaviour
 
         if (hitForward.collider != null)
         {
+            Debug.Log("3 FixedUpdate "+ hitForward.collider.name);
+
             //if (_rig2D.velocity.y == 0)
             //{
-                if (hitForward.collider.gameObject.tag != "Wall_Bottom")
+            if (hitForward.collider.gameObject.tag != "Wall_Bottom")
                 {
                     if ((hitForward.collider.gameObject.tag == "Tag_Stone" && hitForward.collider.gameObject.name != "FallingStone") || hitForward.collider.gameObject.tag == "Chan")
                         HeroJump();
