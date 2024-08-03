@@ -19075,7 +19075,7 @@ Transform:
   - {fileID: 102184129}
   - {fileID: 927392503}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &539165883
 GameObject:
@@ -32055,7 +32055,7 @@ RectTransform:
   - {fileID: 608282711}
   - {fileID: 185321679}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -53478,7 +53478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0, y: 65}
+  m_AnchoredPosition: {x: 0, y: 65}
   m_SizeDelta: {x: 556.15, y: 104.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1428456460
@@ -58369,7 +58369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.2152963, y: 0.14352112}
   m_AnchorMax: {x: 0.7686668, y: 0.25612664}
-  m_AnchoredPosition: {x: 1.1000977, y: -181}
+  m_AnchoredPosition: {x: 1.1000977, y: -181.00003}
   m_SizeDelta: {x: -0.5999756, y: -4.399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1562164821
@@ -66349,7 +66349,7 @@ Transform:
   - {fileID: 173482052}
   - {fileID: 390587840}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1795213254
 GameObject:
@@ -67310,7 +67310,7 @@ Transform:
   - {fileID: 1035629739}
   - {fileID: 1464381400}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1824148739
 GameObject:
@@ -69832,52 +69832,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1923153863
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1923153865}
-  - component: {fileID: 1923153864}
-  m_Layer: 0
-  m_Name: physim_Water2d
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1923153864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923153863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afc74a8e63e53644e9733d46d0034283, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Simulate: 0
-  RBAltered: []
-  alreadyCreated: 1
---- !u!4 &1923153865
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923153863}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1923451234
 GameObject:
   m_ObjectHideFlags: 0
