@@ -353,8 +353,8 @@ public class GameManager : MonoBehaviour
     public void OnNextLevel()
     {
         LoadingNew.SetActive(true);
-        //Utils.LEVEL_INDEX += 1;
-        Utils.LEVEL_INDEX =  81;
+        Utils.LEVEL_INDEX += 1;
+        //Utils.LEVEL_INDEX =  81;
 
         Utils.SaveLevel();
 

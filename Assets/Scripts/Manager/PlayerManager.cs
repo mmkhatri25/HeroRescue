@@ -248,8 +248,8 @@ public class PlayerManager : MonoBehaviour
             //{
             if (hitForward.collider.gameObject.tag != "Wall_Bottom")
                 {
-                    if ((hitForward.collider.gameObject.tag == "Tag_Stone" || hitForward.collider.gameObject.name != "FallingStone") || hitForward.collider.gameObject.tag == "Chan")
-                        HeroJump();
+                if ((hitForward.collider.gameObject.tag == "Tag_Stone" && hitForward.collider.gameObject.name != "FallingStone") || hitForward.collider.gameObject.tag == "Chan" || hitForward.collider.gameObject.name == "FallingStone")
+                    HeroJump();
                 }
             //}
         }
