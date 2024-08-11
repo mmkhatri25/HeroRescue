@@ -601,7 +601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.128, y: 0.7572884}
   m_AnchorMax: {x: 0.88500005, y: 0.85133505}
-  m_AnchoredPosition: {x: -1, y: 258}
+  m_AnchoredPosition: {x: -1, y: 258.00003}
   m_SizeDelta: {x: 2, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36664893
@@ -1390,12 +1390,12 @@ MonoBehaviour:
     pins to beat the level\r\ni.Most pins in this game can only be moved once.\r\nii.Pins
     that are on a fixed slider can be moved back and forth.\r\niii.When you pull
     pins gravity will pull whatever was resting on the pin downward.\r\n\nb.Avoid
-    dangers\r\ni.Do not let lava hit you or the princess.\r\nii.Use the lava to burn
-    enemies.\r\niii.Avoid touching spikes or allowing villains to run into you or
-    the princess.\r\niv.You can neutralize lava by pouring it off stage, leaving
-    it safely behind a barrier, or mixing it with water.\r\n\nc.Levels\r\ni.This
-    game has unlimited levels which are unlocked sequentially.\r\nii.You can\u2019t
-    go back and play previous levels without resetting all the levels.\r\nd.Winning
+    dangers\r\ni.Do not let Lava hit you, the princess or any treasure or gold.\nii.Use
+    the lava to burn enemies.\r\niii.Avoid touching spikes or allowing villains to
+    run into you or the princess.\r\niv.You can neutralize lava by pouring it off
+    stage, leaving it safely behind a barrier, or mixing it with water.\r\n\nc.Levels\r\ni.You
+    beat a level by collecting the treasure, saving the princess or killing the monsters.\r\nii.You
+    can\u2019t go back and play previous levels without resetting all the levels.\r\n\nd.Winning
     vs losing\r\ni.You beat a level by having the treasure fall towards you or by
     saving the princess. \r\nii.You are defeated if your character or the princess
     get hit by a hazard. \r\niii.If you are stuck at a level you can restart it."
@@ -22987,7 +22987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.14951687, y: 0.606}
   m_AnchorMax: {x: 0.90800005, y: 0.7062459}
-  m_AnchoredPosition: {x: -335.7, y: -219.49997}
+  m_AnchoredPosition: {x: -335.70004, y: -219.49997}
   m_SizeDelta: {x: -670, y: -15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1840321489

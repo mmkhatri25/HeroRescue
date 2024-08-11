@@ -27,10 +27,30 @@ public class MenuController : MonoBehaviour
     public GameObject ResetSuccessPopup;
     public void ResetGame()
     {
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
+        //if (PlayerPrefs.HasKey("isFirstTime"))
+        //{
+        //    PlayerPrefs.SetInt("isFirstTime",0);
+        //}
+        //Utils.cantakegiftdaily = true;
+        //Utils.IsClaimReward = false;
+
+        PlayerPrefs.SetInt(Utils.REAL_INDEX_LEVEL_PLAY, 0);
+        Utils.RealLevelIndex = 0;
+        PlayerPrefs.SetInt(Utils.LEVEL_KEY, 0);
+        Utils.LEVEL_INDEX = 0;
         SceneManager.LoadScene(0);
+
         //ResetSuccessPopup.SetActive(true);
+        //StartCoroutine(waitToReload());
     }
+    IEnumerator waitToReload()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(0);
+
+    }
+
     void Start()
     {
         Utils.LoadGameData();

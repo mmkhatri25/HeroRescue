@@ -102,6 +102,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3a042068e9affe64ba4e90487540813d, type: 3}
   - {fileID: 21300000, guid: 826bb78809f9a8b4cafcbf7aa64d1b82, type: 3}
   - {fileID: 21300000, guid: 0f4ae0a8e3618d441bd07758a990e0af, type: 3}
+  - {fileID: 21300000, guid: 4e8e2fa87612d4611911313d204c6858, type: 3}
   - {fileID: 21300000, guid: be5258c8e0a10004789babf8ab5ba8b4, type: 3}
   - {fileID: 21300000, guid: d7f8533995eefd44399a0b02c0a72e47, type: 3}
   - {fileID: 21300000, guid: c3ccc1d970e52274e967ffc9568f23ba, type: 3}
@@ -189,6 +190,7 @@ SpriteAtlas:
   - Logo
   - Treasure Hunter  copy
   - Item_Day_Disable
+  - Logo copy
   - Item_Day7
   - Btn_Back
   - Arthur1

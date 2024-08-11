@@ -248,7 +248,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
-  androidSplashScreen: {fileID: 2800000, guid: 3a042068e9affe64ba4e90487540813d, type: 3}
+  androidSplashScreen: {fileID: 2800000, guid: 4e8e2fa87612d4611911313d204c6858, type: 3}
   AndroidKeystoreName: '{inproject}: user.keystore'
   AndroidKeyaliasName: ohze
   AndroidBuildApkPerCpuArchitecture: 0

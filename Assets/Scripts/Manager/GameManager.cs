@@ -113,6 +113,28 @@ public class GameManager : MonoBehaviour
 
         //MyAnalytic.EventLevelStart(Utils.LEVEL_INDEX + 1);
     }
+    void ShowGameObjectBasedOnRandomNumber(GameObject targetGameObject)
+    {
+        int randomNumber = GetBiasedRandomNumber();
+        Debug.Log("Generated Number: " + randomNumber);
+
+        if (randomNumber % 2 != 0)
+        {
+            targetGameObject.SetActive(true);
+        }
+        else
+        {
+            targetGameObject.SetActive(false);
+        }
+    }
+
+    int GetBiasedRandomNumber()
+    {
+        // Generates a random number with a bias towards even numbers.
+        int[] numbers = new int[] { 2, 4, 6, 8, 10, 1, 3, 5, 7, 9 };
+        int index = Random.Range(0, numbers.Length);
+        return numbers[index];
+    }
     public void TryDisplayObject()
     {
         callCount++;
@@ -263,6 +285,7 @@ public class GameManager : MonoBehaviour
                 }
                 //MyAnalytic.EventLevelCompleted(Utils.LEVEL_INDEX + 1);
             }
+            //ShowGameObjectBasedOnRandomNumber(btnx3Coin);
         }
         else
         {
