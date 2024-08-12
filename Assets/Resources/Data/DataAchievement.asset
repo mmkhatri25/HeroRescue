@@ -26,7 +26,7 @@ MonoBehaviour:
       numberRequire: 300
     - numberReward: 1000
       numberRequire: 500
-  - des: Collect golds xx times
+  - des: Collect gold xx times
     name: HAND OF MIDAS
     contents:
     - numberReward: 500
@@ -59,7 +59,7 @@ MonoBehaviour:
       numberRequire: 100
     - numberReward: 1000
       numberRequire: 200
-  - des: Kill all monster xx times
+  - des: Kill all monsters xx times
     name: THANKS A KILLION
     contents:
     - numberReward: 500

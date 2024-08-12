@@ -383,7 +383,7 @@ public class GameManager : MonoBehaviour
 
         int levelIndex = Utils.LEVEL_INDEX;
 
-        Debug.Log("1. OnNextLevel - "+ levelIndex);
+        Debug.Log("1. OnNextLevel - "+ levelIndex + "levelConfig.lstAllLevel.Count -  "+ levelConfig.lstAllLevel.Count);
         if (levelIndex > levelConfig.lstAllLevel.Count - 1)
         {
             Debug.Log("2 OnNextLevel - " + levelIndex);

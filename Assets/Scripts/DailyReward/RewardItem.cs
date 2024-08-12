@@ -13,16 +13,17 @@ public class RewardItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DisplayAgain();
+        //DisplayAgain();
     }
     public void DisplayAgain()
     {
-        Debug.Log("1 DisplayAgain");
+        //Debug.Log("1 DisplayAgain");
 
+        gTick.SetActive(false);
 
-        if ((dayIndex == Utils.curDailyGift && !Utils.cantakegiftdaily && !Utils.IsClaimReward()) /*|| PlayerPrefs.GetInt("isFirstTime")==0*/)
+        if (dayIndex == Utils.curDailyGift && !Utils.cantakegiftdaily && !Utils.IsClaimReward())
         {
-            Debug.Log("2  DisplayAgain - "+ Utils.curDailyGift + Utils.cantakegiftdaily + Utils.IsClaimReward());
+            //Debug.Log("2  DisplayAgain - "+ Utils.curDailyGift + Utils.cantakegiftdaily + Utils.IsClaimReward());
 
             imgPreview.sprite = sprSelected;
             _dailyGift._dayIndex = dayIndex;
@@ -37,14 +38,14 @@ public class RewardItem : MonoBehaviour
         }
         else if (dayIndex == Utils.curDailyGift && Utils.cantakegiftdaily)
         {
-            Debug.Log("3 DisplayAgain");
+            //Debug.Log("3 DisplayAgain");
 
             _dailyGift.btnClaimX3.gameObject.SetActive(false);
             _dailyGift.btnClaim.gameObject.SetActive(false);
         }
         else if (dayIndex == Utils.curDailyGift - 1 && !Utils.cantakegiftdaily && Utils.IsClaimReward())
         {
-            Debug.Log("4 DisplayAgain");
+            //Debug.Log("4 DisplayAgain");
 
             _dailyGift.btnClaimX3.gameObject.SetActive(false);
             _dailyGift.btnClaim.gameObject.SetActive(false);
@@ -52,23 +53,24 @@ public class RewardItem : MonoBehaviour
         }
         else if (dayIndex < Utils.curDailyGift)
         {
-            Debug.Log("5 DisplayAgain");
+            Debug.Log("on enable " + this.gameObject.name);
+            Debug.Log("show tick - "+ dayIndex + ", curDailyGift - " + Utils.curDailyGift);
 
             imgPreview.sprite = sprHasClaim;
             gTick.SetActive(true);
         }
         else
         {
-            Debug.Log("6 DisplayAgain");
+            //Debug.Log("6 DisplayAgain");
 
             imgPreview.sprite = sprDisable;
             gTick.SetActive(false);
         }
-        Debug.LogError("dis play again");
+        //Debug.LogError("dis play again");
     }
     private void OnEnable()
     {
-        Debug.Log("on enable "+ this.gameObject.name);
+        
 
         DisplayAgain();
     }

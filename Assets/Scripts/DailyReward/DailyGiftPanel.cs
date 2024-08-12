@@ -131,8 +131,10 @@ public class DailyGiftPanel : MonoBehaviour
             Utils.curDailyGift++;
 
             Debug.LogError("take hero");
+            MenuController.instance.shopManager.skinShopItem[5].Unlock();
+
         }
-        MenuController.instance.shopManager.skinShopItem[5].Unlock();
+        //MenuController.instance.shopManager.skinShopItem[5].Unlock();
         Utils.SaveCoin();
         Utils.SaveDailyGift();
         DisplayAgain();
