@@ -4668,6 +4668,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Male
       objectReference: {fileID: 0}
+    - target: {fileID: 4785156955821841589, guid: 71fda4c35e75926449050e53ebde1a78,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4785156957416898560, guid: 71fda4c35e75926449050e53ebde1a78,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4967,6 +4972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _moveType
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 360150832557463478, guid: 8eea6eff2c4b9b34dbfe6f3070739266,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 2720310868365002843, guid: 8eea6eff2c4b9b34dbfe6f3070739266,
         type: 3}
@@ -5419,6 +5429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 4.47326
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167951736585420265, guid: 8eea6eff2c4b9b34dbfe6f3070739266,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8eea6eff2c4b9b34dbfe6f3070739266, type: 3}
