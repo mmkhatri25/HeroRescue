@@ -19,7 +19,7 @@ public class RewardItem : MonoBehaviour
     {
         //Debug.Log("1 DisplayAgain");
 
-        gTick.SetActive(false);
+        //gTick.SetActive(false);
 
         if (dayIndex == Utils.curDailyGift && !Utils.cantakegiftdaily && !Utils.IsClaimReward())
         {

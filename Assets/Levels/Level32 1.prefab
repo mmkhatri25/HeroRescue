@@ -4549,6 +4549,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallX2
       objectReference: {fileID: 0}
+    - target: {fileID: 2512844706030379067, guid: f0b459fd1654c1e4fbaed780b8254f60,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5678096209458688152, guid: f0b459fd1654c1e4fbaed780b8254f60,
         type: 3}
       propertyPath: m_RootOrder

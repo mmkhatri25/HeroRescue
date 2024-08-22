@@ -2973,7 +2973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.16025952, y: 0.21060002}
   m_AnchorMax: {x: 0.82577837, y: 0.347}
-  m_AnchoredPosition: {x: 1.5, y: 156}
+  m_AnchoredPosition: {x: 1.5, y: 155.99991}
   m_SizeDelta: {x: 2, y: -2.9000015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &204974825
@@ -3311,7 +3311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 484.40002, y: -8.5}
+  m_AnchoredPosition: {x: 484.4001, y: -8.5}
   m_SizeDelta: {x: 247, y: 108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &242692675
@@ -8467,7 +8467,7 @@ MonoBehaviour:
   warningAchievement: {fileID: 1948336273}
   warningDailyReward: {fileID: 518098859}
   txtCurLevel: {fileID: 2093183422}
-  ResetSuccessPopup: {fileID: 0}
+  ResetSuccessPopup: {fileID: 1515893192}
 --- !u!1 &676955116
 GameObject:
   m_ObjectHideFlags: 0
@@ -9021,7 +9021,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.9000244, y: -103.50001}
+  m_AnchoredPosition: {x: 2.9000244, y: -103.50002}
   m_SizeDelta: {x: -71.52, y: -197.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &747612496
@@ -12567,7 +12567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 161.98, y: -5.99}
+  m_AnchoredPosition: {x: 161.97998, y: -5.99}
   m_SizeDelta: {x: 287.96, y: 74.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &982295695
@@ -14955,7 +14955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 105.5, y: -107.29999}
+  m_AnchoredPosition: {x: 105.5, y: -107.30005}
   m_SizeDelta: {x: 141, y: 152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1177715249
@@ -17487,7 +17487,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 489.79996, y: 0.8}
+  m_AnchoredPosition: {x: 489.79993, y: 0.8}
   m_SizeDelta: {x: 219, y: 101}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452824633
@@ -18485,7 +18485,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.231, y: 0.106000006}
   m_AnchorMax: {x: 0.7644312, y: 0.21060002}
-  m_AnchoredPosition: {x: 7.217224, y: -375.8993}
+  m_AnchoredPosition: {x: 7.217224, y: -375.89923}
   m_SizeDelta: {x: 189.60156, y: 171.78522}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1543642529
@@ -18535,18 +18535,6 @@ MonoBehaviour:
       - m_Target: {fileID: 672568322}
         m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: ResetGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 672568322}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: SoundClickButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -26080,6 +26068,21 @@ PrefabInstance:
       propertyPath: m_Scale
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 7897738125024563777, guid: ec69796c6380fa545ac2d78c2fbbecb2,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897738125151616082, guid: ec69796c6380fa545ac2d78c2fbbecb2,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897738125168213668, guid: ec69796c6380fa545ac2d78c2fbbecb2,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7897738126549671188, guid: ec69796c6380fa545ac2d78c2fbbecb2,
         type: 3}
       propertyPath: m_Pivot.x
@@ -26208,6 +26211,11 @@ PrefabInstance:
     - target: {fileID: 7897738126549671190, guid: ec69796c6380fa545ac2d78c2fbbecb2,
         type: 3}
       propertyPath: useUnscaledTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897738126549671191, guid: ec69796c6380fa545ac2d78c2fbbecb2,
+        type: 3}
+      propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

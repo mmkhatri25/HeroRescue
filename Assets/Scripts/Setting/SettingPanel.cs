@@ -10,7 +10,7 @@ public class SettingPanel : MonoBehaviour
     private void OnEnable()
     {
         anim.Play("PopupAnim");
-        ChangeSprite();
+        //ChangeSprite();
     }
     public Animator anim;
     private void OnValidate()
@@ -20,7 +20,7 @@ public class SettingPanel : MonoBehaviour
     }
     private void Start()
     {
-        txtVersion.text = "Version " + Application.version;
+        //txtVersion.text = "Version " + Application.version;
     }
     private void ChangeSprite() {
         ChangeQualitySprite();

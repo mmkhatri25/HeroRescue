@@ -39,15 +39,17 @@ public class MenuController : MonoBehaviour
         Utils.RealLevelIndex = 0;
         PlayerPrefs.SetInt(Utils.LEVEL_KEY, 0);
         Utils.LEVEL_INDEX = 0;
-        SceneManager.LoadScene(0);
+        txtCurLevel.text = "LEVEL " + (Utils.LEVEL_INDEX + 1);
+        
+        //SceneManager.LoadScene(0);
 
         //ResetSuccessPopup.SetActive(true);
-        //StartCoroutine(waitToReload());
+        StartCoroutine(waitToReload());
     }
     IEnumerator waitToReload()
     {
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(0);
+        ResetSuccessPopup.SetActive(false);
 
     }
 
