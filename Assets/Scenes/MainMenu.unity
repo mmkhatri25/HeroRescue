@@ -1347,7 +1347,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 428.295, y: -1277.7}
-  m_SizeDelta: {x: 838.26, y: 2555.4}
+  m_SizeDelta: {x: 838.26, y: 2980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &86599100
 MonoBehaviour:
@@ -1398,7 +1398,10 @@ MonoBehaviour:
     can\u2019t go back and play previous levels without resetting all the levels.\r\n\nd.Winning
     vs losing\r\ni.You beat a level by having the treasure fall towards you or by
     saving the princess. \r\nii.You are defeated if your character or the princess
-    get hit by a hazard. \r\niii.If you are stuck at a level you can restart it."
+    get hit by a hazard. \r\niii.If you are stuck at a level you can restart it.\n\ne.
+    After you complete a level you need to press continue on the Resuce Complete
+    page to confirm completion of level. If you press home button on that page, it
+    will take you to Home Screen and not confirm that level is complete."
 --- !u!222 &86599101
 CanvasRenderer:
   m_ObjectHideFlags: 0
