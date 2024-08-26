@@ -3842,6 +3842,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyMelee_E1
       objectReference: {fileID: 0}
+    - target: {fileID: 447227860025940807, guid: e9bd682b6b6c2214a8aaa1cd8d58b107,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 447227862102556836, guid: e9bd682b6b6c2214a8aaa1cd8d58b107,
         type: 3}
       propertyPath: m_Mesh
@@ -3866,6 +3871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RopeObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355550990259010370, guid: e1f6b3d92f2d4914cb355afda63659b2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4355550990259010397, guid: e1f6b3d92f2d4914cb355afda63659b2,
         type: 3}
@@ -4231,6 +4241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StickBarrie (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946110268828160182, guid: 8eea6eff2c4b9b34dbfe6f3070739266,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7678980956083671126, guid: 8eea6eff2c4b9b34dbfe6f3070739266,
         type: 3}
