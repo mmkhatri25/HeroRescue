@@ -283,6 +283,11 @@ public class GameManager : MonoBehaviour
                     }
                     Debug.LogError("========show ads TH 2");
                 }
+                Utils.LEVEL_INDEX += 1;
+                Utils.RealLevelIndex = Utils.LEVEL_INDEX;
+                //Utils.LEVEL_INDEX =  81;
+
+                Utils.SaveLevel();
                 //MyAnalytic.EventLevelCompleted(Utils.LEVEL_INDEX + 1);
             }
             //ShowGameObjectBasedOnRandomNumber(btnx3Coin);
@@ -376,10 +381,10 @@ public class GameManager : MonoBehaviour
     public void OnNextLevel()
     {
         LoadingNew.SetActive(true);
-        Utils.LEVEL_INDEX += 1;
-        //Utils.LEVEL_INDEX =  81;
+        //Utils.LEVEL_INDEX += 1;
+        ////Utils.LEVEL_INDEX =  81;
 
-        Utils.SaveLevel();
+        //Utils.SaveLevel();
 
         int levelIndex = Utils.LEVEL_INDEX;
 

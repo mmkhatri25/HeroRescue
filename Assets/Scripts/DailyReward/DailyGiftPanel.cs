@@ -150,24 +150,37 @@ public class DailyGiftPanel : MonoBehaviour
         {
             case 1:
                 AddCoin(1000);
+                PlayerPrefs.GetInt("Day_"+_dayIndex,1);
                 break;
             case 2:
                 AddCoin(2000);
+                PlayerPrefs.GetInt("Day_" + _dayIndex, 1);
+
                 break;
             case 3:
                 AddCoin(3000);
+                PlayerPrefs.GetInt("Day_" + _dayIndex, 1);
+
                 break;
             case 4:
                 AddCoin(4000);
+                PlayerPrefs.GetInt("Day_" + _dayIndex, 1);
+
                 break;
             case 5:
                 AddCoin(5000);
+                PlayerPrefs.GetInt("Day_" + _dayIndex, 1);
+
                 break;
             case 6:
                 AddCoin(6000);
+                PlayerPrefs.GetInt("Day_" + _dayIndex, 1);
+
                 break;
             case 7:
                 TakeSpecialGift();
+                PlayerPrefs.GetInt("Day_" + _dayIndex, 1);
+
                 break;
         }
         Utils.SaveCoin();
