@@ -4890,7 +4890,7 @@ PrefabInstance:
     - target: {fileID: 3580600929575691664, guid: be9b178affd1c2542b9d8f71d565bf2d,
         type: 3}
       propertyPath: m_text
-      value: Posion gas can kill Monster, hero or Princess
+      value: Poison gas can kill Monster, Hero or Princess
       objectReference: {fileID: 0}
     - target: {fileID: 3580600929575691664, guid: be9b178affd1c2542b9d8f71d565bf2d,
         type: 3}

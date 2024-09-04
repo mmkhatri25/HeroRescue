@@ -601,7 +601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.128, y: 0.7572884}
   m_AnchorMax: {x: 0.88500005, y: 0.85133505}
-  m_AnchoredPosition: {x: -1, y: 258}
+  m_AnchoredPosition: {x: -1, y: 258.00003}
   m_SizeDelta: {x: 2, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36664893
@@ -1393,7 +1393,8 @@ MonoBehaviour:
     dangers\r\ni.Do not let Lava hit you, the princess or any treasure or gold.\nii.Use
     the lava to burn enemies.\r\niii.Avoid touching spikes or allowing villains to
     run into you or the princess.\r\niv.You can neutralize lava by pouring it off
-    stage, leaving it safely behind a barrier, or mixing it with water.\r\n\nc.Levels\r\ni.You
+    stage, leaving it safely behind a barrier, or mixing it with water.\r\nv. Avoid
+    poison gas. Poison gas can harm Hero and Princess. Use it to neutralize enemies.\n\nc.Levels\r\ni.You
     beat a level by collecting the treasure, saving the princess or killing the monsters.\r\nii.You
     can\u2019t go back and play previous levels without resetting all the levels.\r\n\nd.Winning
     vs losing\r\ni.You beat a level by having the treasure fall towards you or by
