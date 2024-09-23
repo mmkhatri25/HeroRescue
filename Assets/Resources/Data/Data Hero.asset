@@ -22,24 +22,24 @@ MonoBehaviour:
     nameSkin: Hercules/hercules
     nameSkinSword: Hercules/kiem hercules
     typeUnlock: 1
-    price: 2000
+    price: 5000
   - itemName: ARTHUR
     nameSkin: Athur/Athur
     nameSkinSword: Athur/kiem Athur
     typeUnlock: 1
-    price: 5000
+    price: 10000
   - itemName: KA-EL
     nameSkin: Superman/superman
     nameSkinSword: Superman/kiem superman
     typeUnlock: 1
-    price: 10000
+    price: 20000
   - itemName: GABRIEL
     nameSkin: Holy/holy
     nameSkinSword: Holy/kiem holy
     typeUnlock: 1
-    price: 15000
+    price: 30000
   - itemName: DRAGON
     nameSkin: dragon Knight/dragon knight
     nameSkinSword: dragon Knight/kiem dragon knight
     typeUnlock: 1
-    price: 20000
+    price: 40000
